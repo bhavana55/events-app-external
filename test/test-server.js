@@ -61,7 +61,6 @@ describe('GET /', function () {
 });
 
 
-
 describe('POST /event', function () {
   it('adds an event', function (done) {
   const data = { title: 'test event', description: 'even cooler test' };
